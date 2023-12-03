@@ -1,0 +1,16 @@
+<!-- templates/checkout/checkout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <form method="post" action="{% url 'checkout' %}">
+        <!-- Add order summary and shipping information fields -->
+        <button type="submit">Proceed to Payment</button>
+    </form>
+</body>
+</html>
